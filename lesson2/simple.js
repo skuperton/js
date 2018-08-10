@@ -9,6 +9,7 @@ let mainList = {
     open: false
 }
 
+
 for (let i = 0; i < 3; i++ ) {
 	 let a = prompt('Какой товар будем продавать ?');
 
@@ -20,6 +21,25 @@ for (let i = 0; i < 3; i++ ) {
   	console.log(typeof(a) + 'Значение не принято');
   }
 }
+ /*var i = 0
+do {
+  let a = prompt('Какой товар будем продавать ?');
+  mainList.shopGoods[i] = a;
+  i++;
+} while(i < 5);*/
+
+/*for (let i = 0; i < 3; i++ ) {
+   let a = prompt('Какой товар будем продавать ?');
+
+   if (typeof(a) === 'string' && typeof(a) != null && a.length < 50 ){
+    console.log('Значения принято');
+    mainList.shopGoods[i] = a;
+
+  }else if(typeof(a) != 'string'){
+    console.log(typeof(a) + 'Значение не принято');
+  }
+}*/
+
 
 
 alert('Ваш бюджет в день' + mainList.budget / 30 + 'рублей');
