@@ -35,4 +35,4 @@ console.log(x);*/
 // let a = [] + 1 + 2;
 // console.log(a);
 
-alert( "ёжик" > "яблоко" ); 
+alert( null || 2 && 3 || 4 ); 
